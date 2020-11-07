@@ -1,0 +1,21 @@
+name: ChatGroup
+main: io.github.itzjamez.chatgroup.ChatGroup
+version: 1.0.0
+api-version: 1.16
+author: ItZ_JameZ_
+commands:
+  admin:
+    aliases: [a]
+    permission: 'player.chat.admin'
+  mod:
+    aliases: [m]
+    permission: 'player.chat.mod'
+  helper:  
+    aliases: [h]
+    permission: 'player.chat.helper'
+  local:
+    aliases: [l]
+    permission: 'player.chat'
+  global:  
+    aliases: [g]
+    permission: 'player.chat'
